@@ -1,0 +1,1 @@
+This is the project for my professional website. The goal is to personalize this website to send to future employers as a display of my skills and place to reference everything. It is also a learning oppotunity 💯
