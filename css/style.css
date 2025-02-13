@@ -838,7 +838,7 @@ ul.portfolio-image li .desc{
 }
 .grid-item .wrap-article {
   border: 1px solid rgba(129, 129, 129, 0.1);
-  background: #ffffff;
+  background: #f6f6f6;
   padding: 30px 20px;
 }
 .grid-item .wrap-article img {
