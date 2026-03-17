@@ -24,6 +24,11 @@
   }
 
 	/*---- quote -----*/
+	.bg-about{
+		min-height: 400px;
+		background-position: center top;
+		background-attachment: scroll;
+	}
 	.wrap-about{ 
 		padding: 0 0 20px 0;
 		min-height: 400px !important;
@@ -71,7 +76,11 @@
 	.grid-item {width: 50%;}
 
   /*------- about -------*/
-  .bg-about{min-height: 520px;}
+  .bg-about{
+    min-height: 520px;
+    background-position: center center;
+    background-attachment: scroll;
+  }
   .wrap-about{
   	min-height: 520px;
   	padding-bottom: 10%;

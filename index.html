@@ -7,8 +7,6 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Marvel Tranquille's Resume WebApp" name="description">
     <meta content="BdgPixel" name="author">
-    <!--Fav-->
-    <link href="images/favicon.ico" rel="shortcut icon">
     
     <!--styles-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +19,9 @@
     <!--fonts google-->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    
+    <!--Chart.js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
     <!--[if lt IE 9]>
        <script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -38,11 +39,6 @@
     <!--HEADER -->
     <div class="header">
       <div class="for-sticky">
-        <!--LOGO-->
-        <div class="col-md-2 col-xs-6 logo">
-          <a href="index.html"><img alt="logo" class="logo-nav" src="images/logo.png"></a>
-        </div>
-        <!--/.LOGO END-->
       </div>
       <div class="menu-wrap">
         <nav class="menu">
@@ -59,8 +55,8 @@
              <a data-scroll="" href="#services">
               <span>Services</span>
             </a>
-            <a data-scroll="" href="#employement">
-              <span>Employement</span>
+            <a data-scroll="" href="#employment">
+              <span>Employment</span>
             </a>
             <a data-scroll="" href="#skill">
               <span>Skills</span>
@@ -72,7 +68,7 @@
               <span>Testimonial</span>
             </a>
             <a data-scroll="" href="#publications">
-              <span>Publications/Pre-Print</span>
+              <span>Publications</span>
             </a>
             <a data-scroll="" href="#contact">
               <span>Contact</span>
@@ -125,13 +121,8 @@
                   <div class="wrap-about">
                     <div class="w-content">
                       <p class="head-about">
-                        "Change will not come if we wait for some other people or some other time. We are the ones we’ve been waiting for. We are the change that we seek."
+                        "Change will not come if we wait for some other people or some other time. We are the ones we’ve been waiting for. We are the change that we seek." -Barack Obama
                       </p>
-                      
-                      <h5 class="name">
-                        Barack Obama
-                      </h5>
-                      <img alt="signature" src="images/signature.png">
                     </div>
                   </div>
                 </div>
@@ -235,28 +226,6 @@
                       </div>
                     </a>
                   </li>
-                  <li class="col-md-6">
-                    <a href="images/bw-5.png"><img alt="image" src="images/bw-5.png">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                          <p class="desc">
-                            Presentation
-                          </p>  
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="col-md-6">
-                    <a href="images/bw-6.png"><img alt="image" src="images/bw-6.png">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                          <p class="desc">
-                            Letter Branding
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
                 </ul>
                 <!--/.PORTFOLIO IMAGE END-->
               </div>
@@ -280,9 +249,9 @@
                 <div class="row">
                   <ul class="listing-item">
                     <li>
-                      <div class="col-md-4 col-sm-4">
+                      <div class="col-md-6 col-sm-6">
                         <h3 class="icon-use">
-                          c
+                          S
                         </h3>
                         <p class="head-sm">
                           DATA ANALYSIS
@@ -294,9 +263,9 @@
                     </li>
 
                     <li>
-                      <div class="col-md-4 col-sm-4">
+                      <div class="col-md-6 col-sm-6">
                         <h3 class="icon-use">
-                          b
+                          S
                         </h3>
                         <p class="head-sm">
                           DATA VISUALIZATION
@@ -307,29 +276,16 @@
                       </div>
                     </li>
 
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          d
-                        </h3>
-                        <p class="head-sm">
-                          AI/ML
-                        </p>
-                        <p class="text-grey">
-                          Developing predictive models for cancer biology, drug response, and organoid success rates.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
+                    </ul>
 
                   <ul class="listing-item">
                     <li>
-                      <div class="col-md-4 col-sm-4">
-                        <p class="icon-use">
-                          f
-                        </p>
+                      <div class="col-md-6 col-sm-6">
+                        <h3 class="icon-use">
+                          g
+                        </h3>
                         <p class="head-sm">
-                          CULTURE & OPTIMIZATION
+                          CELL CULTURE & OPTIMIZATION
                         </p>
                         <p class="text-grey">
                           Establishing, maintaining, and optimizing patient-derived tumor organoids for lab research.                        
@@ -338,26 +294,12 @@
                     </li>
 
                     <li>
-                      <div class="col-md-4 col-sm-4">
+                      <div class="col-md-6 col-sm-6">
                         <h3 class="icon-use">
-                          p
+                          c
                         </h3>
                         <p class="head-sm">
-                          AUTOMATION
-                        </p>
-                        <p class="text-grey">
-                          Writing custom scripts in R, Python, and MATLAB to streamline data analysis and experimental workflows.                        
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          m
-                        </h3>
-                        <p class="head-sm">
-                          PIPLINE DEVELOPMENT
+                          PIPELINE DEVELOPMENT
                         </p>
                         <p class="text-grey">
                           Building scalable data pipelines, automating workflows, and developing applications for data processing and analysis.                        
@@ -506,50 +448,11 @@
                 </p>
               </div>
               <div class="col-md-9 content-right">
-                <!--SKILLST-->
-                <div class="skillst">
-                  <div class="skillbar" data-percent="87%">
-                    <div class="title head-sm">
-                      R
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <div class="skillbar" data-percent="43%">
-                    <div class="title head-sm">
-                      Python
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <div class="skillbar" data-percent="58%">
-                    <div class="title head-sm">
-                      MATLAB
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <div class="skillbar" data-percent="70%">
-                    <div class="title head-sm">
-                      SQL
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <div class="skillbar" data-percent="66%">
-                    <div class="title head-sm">
-                      Bash
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
+                <!--SKILLS PIE CHART-->
+                <div class="skills-chart" style="max-width: 400px; margin: 0 auto;">
+                  <canvas id="skillsPieChart"></canvas>
                 </div>
-                <!--/.SKILLST END-->
+                <!--/.SKILLS PIE CHART END-->
               </div>
             </div>
           </div>
@@ -633,7 +536,7 @@
             <div class="row">
               <div class="col-md-12">
                 <h3 class="title-small-center text-center">
-                  <span>Publications/Pre-Print</span>
+                  <span>Publications</span>
                 </h3>
                 <div class="row">
                   <div class="col-md-6 col-md-offset-3">
@@ -646,30 +549,15 @@
                   <div class="grid-item">
                     <div class="wrap-article">
                       <p class="subtitle fancy">
-                        <span>12/19/2024</span>
+                        <span>Jan 2026</span>
                       </p>
-                      <a href="https://pubmed.ncbi.nlm.nih.gov/39708521/" target="_blank">
-                        <h3 class="title">
-                          Emerging molecular phenotypes and potential therapeutic targets in esophageal and gastric adenocarcinoma unearthed by whole genome and transcriptome analyses
-                        </h3>
+                      <a href="https://aacrjournals.org/cancerdiscovery/article/16/1/135/771226/Epigenetic-Regulation-of-Chromosomal-Instability" target="_blank">
+                      <h3 class="title">
+                        Epigenetic Regulation of Chromosomal Instability by EZH2 Methyltransferase
+                      </h3>
                       </a>
                       <p class="content-blog">
-                        We analyzed whole genome and transcriptome sequencing data from 46 patients with esophageal and stomach adenocarcinoma, identifying 90 targetable oncogenic mutations and fusions in 63% of cases, including novel NTRK, NRG1, ALK, and MET fusions. Our findings highlight the potential of comprehensive sequencing to uncover clinically relevant molecular features and advance precision oncology for these cancers.                      </p>
-                    </div>
-                  </div>
-
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                       <p class="subtitle fancy">
-                        <span>02/16/2024</span>
-                      </p>
-                      <a href="https://pubmed.ncbi.nlm.nih.gov/38369186/" target="_blank">
-                        <h3 class="title">
-                          Whole-Genome Sequencing Analysis of Male Breast Cancer Unveils Novel Structural Events and Potential Therapeutic Targets 
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        Male breast cancer (MaBC) is a rare disease, and its treatment is often adapted from female breast cancer protocols due to limited research. Using whole-genome sequencing, this study identified key genetic alterations, including potential therapeutic targets like FGFR1 amplification and homologous recombination deficiency, emphasizing the need for tailored treatment strategies for MaBC patients.
+                        Cancer Discovery
                       </p>
                     </div>
                   </div>
@@ -677,79 +565,79 @@
                   <div class="grid-item">
                     <div class="wrap-article">
                       <p class="subtitle fancy">
-                        <span>11/01/2021</span>
+                        <span>Jan 2026</span>
+                      </p>
+                      <a href="https://www.nature.com/articles/s43856-025-01308-5" target="_blank">
+                      <h3 class="title">
+                        Whole genome sequencing approach to assess homologous recombination deficiency in a pan-cancer cohort
+                      </h3>
+                      </a>
+                      <p class="content-blog">
+                        Communications Medicine
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <p class="subtitle fancy">
+                        <span>Feb 2025</span>
+                      </p>
+                      <a href="https://aacrjournals.org/cancerres/article/85/3/551/751295/Kinome-Focused-CRISPR-Cas9-Screens-in-African?guestAccessKey=" target="_blank">
+                      <h3 class="title">
+                        Kinome focused CRISPR-Cas9 screens in African ancestry patient-derived breast cancer organoids identify essential kinases and synergy of EGFR and FGFR1 inhibition
+                      </h3>
+                      </a>
+                      <p class="content-blog">
+                        Cancer Research
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <p class="subtitle fancy">
+                        <span>Dec 2024</span>
+                      </p>
+                      <a href="https://www.sciencedirect.com/science/article/abs/pii/S034403382400699X?via%3Dihub" target="_blank">
+                      <h3 class="title">
+                        Emerging molecular phenotypes and potential therapeutic targets in esophageal and gastric adenocarcinoma unearthed by whole genome and transcriptome analyses
+                      </h3>
+                      </a>
+                      <p class="content-blog">
+                        Pathology - Research & Practice
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <p class="subtitle fancy">
+                        <span>Apr 2024</span>
+                      </p>
+                      <a href="https://www.modernpathology.org/article/S0893-3952(24)00032-2/fulltext" target="_blank">
+                      <h3 class="title">
+                        Whole-Genome Sequencing Analysis of Male Breast Cancer Unveils Novel Structural Events and Potential Therapeutic Targets
+                      </h3>
+                      </a>
+                      <p class="content-blog">
+                        Modern Pathology
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <p class="subtitle fancy">
+                        <span>Nov 2021</span>
                       </p>
                       <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009882" target="_blank">
-                        <h3 class="title">
-                          A behavioral screen for mediators of age-dependent TDP-43 neurodegeneration identifies SF2/SRSF1 among a group of potent suppressors in both neurons and glia
-                        </h3>
+                      <h3 class="title">
+                        A behavioral screen for mediators of age-dependent TDP-43 neurodegeneration identifies SF2/SRSF1 among a group of potent suppressors in both neurons and glia
+                      </h3>
                       </a>
                       <p class="content-blog">
-                        Cytoplasmic aggregation of TDP-43 is a hallmark of ALS, FTD, and some cases of AD, occurring in both sporadic and familial forms, including those linked to C9orf72 mutations. By expressing human TDP-43 in Drosophila motor neurons, we identified 32 suppressor genes, including SF2/SRSF1, which mitigated locomotor deficits and lifespan reduction, highlighting key pathways in TDP-43 toxicity and neurodegeneration.
-                      </p>
-                    </div>
-                  </div>
-                  
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <p class="subtitle fancy">
-                        <span>06/30/2024</span>
-                      </p>
-                      <a href="https://www.medrxiv.org/content/10.1101/2024.06.28.24309592v1" target="_blank">
-                        <h3 class="title">
-                          [PREPRINT] Whole Genome Landscape Analysis of Homologous Recombination Deficiency in a Pan-Cancer Cohort
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        [PREPRINT]This study assesses whole-genome sequencing (WGS) for detecting homologous recombination deficiency (HRD) in a pan-cancer cohort, revealing diverse genomic mechanisms beyond BRCA1/2 mutations, demonstrating superior accuracy over commercial HRD assays, and advocating for standardized HRD testing to improve oncology treatment strategies.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <p class="subtitle fancy">
-                        <span>07/08/2024</span>
-                      </p>
-                      <a href="https://www.medrxiv.org/content/10.1101/2024.07.08.24310077v1" target="_blank">
-                        <h3 class="title">
-                          [PREPRINT] Unearthed Novel Molecular Phenotypes and Potential Therapeutic Targets in Esophagogastric Adenocarcinoma
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        Here we use whole-genome and transcriptome sequencing to uncover novel oncogenic mutations, fusions, and molecular signatures in esophagogastric adenocarcinoma, highlighting new therapeutic targets and advancing precision medicine for improved patient outcomes.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <p class="subtitle fancy">
-                        <span>11/29/2024</span>
-                      </p>
-                      <a href="https://www.researchgate.net/publication/386269464_Whole_Genome_Analysis_Identifies_Homologous_Recombination_Deficiency_in_Cancers_with_BRCA12_Wild-Type_and_BRCA12_Structural_Variants" target="_blank">
-                        <h3 class="title">
-                          [PREPRINT] Whole Genome Analysis Identifies Homologous Recombination Deficiency in Cancers with BRCA1/2 Wild-Type and BRCA1/2 Structural Variants
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        This study utilizes whole-genome sequencing (WGS) to refine homologous recombination deficiency (HRD) detection across various cancers, uncovering diverse genomic alterations beyond BRCA1/2 mutations and demonstrating superior correlation with treatment response compared to other assays, emphasizing the need for standardized HRD testing.
-                      </p>
-                    </div>
-                  </div>                  
-
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <p class="subtitle fancy">
-                        <span>08/03/2015</span>
-                      </p>
-                      <a href="https://www.researchgate.net/publication/377844442_Kinome_focused_CRISPR-Cas9_screens_in_African_ancestry_patient-derived_breast_cancer_organoids_identify_essential_kinases_and_synergy_of_EGFR_and_FGFR1_inhibition" target="_blank">
-                        <h3 class="title">
-                          [PREPRINT] Kinome focused CRISPR-Cas9 screens in African ancestry patient-derived breast cancer organoids identify essential kinases and synergy of EGFR and FGFR1 inhibition
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        In this paper, we develop a CRISPR screening pipeline in 3D-grown patient-derived tumor organoids (PDTOs), particularly from underrepresented populations, to identify essential kinases for targeted therapies, revealing novel therapeutic targets and demonstrating the feasibility of precision medicine approaches beyond direct genomic alterations.
+                        PLOS Genetics
                       </p>
                     </div>
                   </div>
@@ -768,7 +656,7 @@
             <div class="row">
               <div class="col-md-3">
                 <h3 class="title-small">
-                  <span>Contact</span>
+                  <span>Let&apos;s Connect</span>
                 </h3>
                 <p class="content-detail">
                   I am always open to new opportunities and collaborations. If you have any questions or would like to get in touch, please feel free to reach out to me via email or connect with me through the social links below.
@@ -809,14 +697,6 @@
               </li>
             </ul>
           </div>
-
-          <div class="footer-bottom">
-            <div class="container">
-              <div class="row">
-                <img src="images/logo-bottom.png" alt="logo bottom" class="center-block" />
-              </div>
-            </div>
-          </div>
         </footer>
         <!--/.FOOTER-END-->
 
@@ -837,5 +717,52 @@
     <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
     <script src="js/typed.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
+    
+    <!--Skills Pie Chart Initialization-->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const ctx = document.getElementById('skillsPieChart').getContext('2d');
+        new Chart(ctx, {
+          type: 'pie',
+          data: {
+            labels: ['R', 'Python', 'SQL', 'MATLAB', 'Bash'],
+            datasets: [{
+              data: [75, 10, 10, 5, 5],
+              backgroundColor: [
+                '#efc07b',
+                '#0f3460',
+                '#16213e',
+                '#5a8cba',
+                '#c9a55c'
+              ],
+              borderColor: '#1a1a2e',
+              borderWidth: 2
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                position: 'bottom',
+                labels: {
+                  padding: 20,
+                  font: {
+                    size: 14
+                  },
+                  color: '#e0e0e0'
+                }
+              },
+              tooltip: {
+                callbacks: {
+                  label: function(context) {
+                    return context.label;
+                  }
+                }
+              }
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>
