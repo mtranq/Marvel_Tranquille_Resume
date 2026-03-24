@@ -20,9 +20,6 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
     
-    <!--Chart.js-->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    
     <!--[if lt IE 9]>
        <script type="text/javascript" src="js/html5shiv.min.js"></script>
     <![endif]-->
@@ -52,8 +49,8 @@
             <a data-scroll="" href="#work">
               <span>Work</span>
             </a>
-             <a data-scroll="" href="#services">
-              <span>Services</span>
+             <a data-scroll="" href="#projects">
+              <span>Projects</span>
             </a>
             <a data-scroll="" href="#employment">
               <span>Employment</span>
@@ -63,9 +60,6 @@
             </a>
             <a data-scroll="" href="#education">
               <span>Education</span>
-            </a>
-            <a data-scroll="" href="#testimonial">
-              <span>Testimonial</span>
             </a>
             <a data-scroll="" href="#publications">
               <span>Publications</span>
@@ -234,76 +228,66 @@
         </section>
         <!--/.WORK END-->
 
-        <!--SERVICES-->
-        <section class="white-bg" id="services">
+        <!--PROJECTS-->
+        <section class="white-bg" id="projects">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
                 <h3 class="title-small">
-                  <span>Services</span>
+                  <span>Projects</span>
                 </h3>
                 <p class="content-detail">
-                  I analyze complex biological data to uncover meaningful insights in cancer research. I develop bioinformatics pipelines and machine learning models to enhance scientific discovery. I optimize organoid modeling and cell culture techniques for innovative biomedical applications.                </p>
+                  A selection of my GitHub projects showcasing my work in bioinformatics, data analysis, and web development.
+                </p>
               </div>
               <div class="col-md-9 content-right">
                 <div class="row">
                   <ul class="listing-item">
                     <li>
                       <div class="col-md-6 col-sm-6">
-                        <h3 class="icon-use">
-                          S
-                        </h3>
-                        <p class="head-sm">
-                          DATA ANALYSIS
-                        </p>
-                        <p class="text-grey">
-                          Analyzing genomic, transcriptomic, and proteomic data for research and clinical applications.
-                        </p>
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              Transcriptomics Dashboard
+                            </h2>
+                            <p class="job">
+                              R &middot; Shiny &middot; Bioconductor &middot; Docker
+                            </p>
+                            <p class="company">
+                              <a href="https://github.com/mtranq/Transcriptomics-Dashboard" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                An interactive RNA-seq analysis and visualization dashboard built with R and Shiny. Enables exploration of TCGA-BRCA gene expression data with differential expression analysis, volcano plots, gene set enrichment, and downloadable results.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </li>
 
                     <li>
                       <div class="col-md-6 col-sm-6">
-                        <h3 class="icon-use">
-                          S
-                        </h3>
-                        <p class="head-sm">
-                          DATA VISUALIZATION
-                        </p>
-                        <p class="text-grey">
-                          Creating interactive dashboards, heatmaps, PCA plots, and other visualizations for research presentations and publications.
-                        </p>
-                      </div>
-                    </li>
-
-                    </ul>
-
-                  <ul class="listing-item">
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <h3 class="icon-use">
-                          g
-                        </h3>
-                        <p class="head-sm">
-                          CELL CULTURE & OPTIMIZATION
-                        </p>
-                        <p class="text-grey">
-                          Establishing, maintaining, and optimizing patient-derived tumor organoids for lab research.                        
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <h3 class="icon-use">
-                          c
-                        </h3>
-                        <p class="head-sm">
-                          PIPELINE DEVELOPMENT
-                        </p>
-                        <p class="text-grey">
-                          Building scalable data pipelines, automating workflows, and developing applications for data processing and analysis.                        
-                        </p>
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              Bioinformatic Toolbox
+                            </h2>
+                            <p class="job">
+                              R &middot; HTML
+                            </p>
+                            <p class="company">
+                              <a href="https://github.com/mtranq/mttools" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                A collection of genomic and transcriptomic scripts and data outlining a basic structure for bioinformatics analysis workflows.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </li>
                   </ul>
@@ -313,10 +297,10 @@
             </div>
           </div>
         </section>
-        <!--/.SERVICES END-->
+        <!--/.PROJECTS END-->
 
         <!--EMPLOYEMENT-->
-        <section class="grey-bg" id="employement">
+        <section class="grey-bg" id="employment">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
@@ -433,7 +417,7 @@
             </div>
           </div>
         </section>
-        <!--/.EMPLOYEMENT END-->
+        <!--/.EMPLOYMENT END-->
 
         <!--SKILLS-->
         <section class="white-bg" id="skill">
@@ -444,15 +428,13 @@
                   <span>Skills</span>
                 </h3>
                 <p class="content-detail">
-                  These languages enable me to write optimized code, perform statistical modeling, and create data visualizations with ease. I am always eager to learn new languages and tools to enhance my skillset.
+                  These skills enable me to write optimized code, perform statistical modeling, and create data visualizations with ease. I am always eager to learn new languages and tools to enhance my skillset.
                 </p>
               </div>
               <div class="col-md-9 content-right">
-                <!--SKILLS PIE CHART-->
-                <div class="skills-chart" style="max-width: 400px; margin: 0 auto;">
-                  <canvas id="skillsPieChart"></canvas>
-                </div>
-                <!--/.SKILLS PIE CHART END-->
+                <!--WORD CLOUD-->
+                <div id="skills-wordcloud" style="width:100%; height:400px;"></div>
+                <!--/.WORD CLOUD END-->
               </div>
             </div>
           </div>
@@ -717,50 +699,39 @@
     <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
     <script src="js/typed.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.js"></script>
     
-    <!--Skills Pie Chart Initialization-->
+    <!--Word Cloud Initialization-->
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-        const ctx = document.getElementById('skillsPieChart').getContext('2d');
-        new Chart(ctx, {
-          type: 'pie',
-          data: {
-            labels: ['R', 'Python', 'SQL', 'MATLAB', 'Bash'],
-            datasets: [{
-              data: [75, 10, 10, 5, 5],
-              backgroundColor: [
-                '#efc07b',
-                '#0f3460',
-                '#16213e',
-                '#5a8cba',
-                '#c9a55c'
-              ],
-              borderColor: '#1a1a2e',
-              borderWidth: 2
-            }]
-          },
-          options: {
-            responsive: true,
-            plugins: {
-              legend: {
-                position: 'bottom',
-                labels: {
-                  padding: 20,
-                  font: {
-                    size: 14
-                  },
-                  color: '#e0e0e0'
-                }
-              },
-              tooltip: {
-                callbacks: {
-                  label: function(context) {
-                    return context.label;
-                  }
-                }
-              }
-            }
-          }
+        var skillsList = [
+          // Languages (largest)
+          ['R', 48], ['Python', 40], ['SQL', 36], ['MATLAB', 34], ['Bash', 30], ['PowerShell', 28],
+          // Technologies (medium-large)
+          ['ggplot2', 32], ['DESeq2', 30], ['edgeR', 28], ['TCGAbiolinks', 26],
+          ['ComplexHeatmap', 24], ['Flexdashboard', 24], ['Shiny', 34],
+          ['Docker', 26], ['Git', 30], ['GitHub', 28],
+          ['Matplotlib', 22], ['Seaborn', 22], ['Plotly', 24],
+          ['Scikit-learn', 26], ['TensorFlow', 24], ['Keras', 22], ['PyTorch', 24],
+          ['Microsoft Suite', 22],
+          // Soft Skills (medium)
+          ['Computational Analysis', 28], ['Creative Thinking', 24],
+          ['Great Communication', 24], ['Diligence', 22], ['Flexibility', 22]
+        ];
+
+        var colors = ['#efc07b', '#5a8cba', '#c9a55c', '#e0e0e0', '#8ab4d6', '#d4a84b', '#a0c4e0'];
+
+        WordCloud(document.getElementById('skills-wordcloud'), {
+          list: skillsList,
+          gridSize: 8,
+          weightFactor: 1.2,
+          fontFamily: 'Roboto, sans-serif',
+          color: function() { return colors[Math.floor(Math.random() * colors.length)]; },
+          backgroundColor: 'transparent',
+          rotateRatio: 0.3,
+          rotationSteps: 2,
+          shuffle: true,
+          drawOutOfBound: false
         });
       });
     </script>
